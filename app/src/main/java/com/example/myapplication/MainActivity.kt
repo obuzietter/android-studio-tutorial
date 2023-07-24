@@ -25,6 +25,15 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("m", message)
             startActivity(intent)
         }
+        val shareBtn : Button = findViewById(R.id.shareBtn)
+        shareBtn.setOnClickListener {
+            val message:String = findViewById<EditText>(R.id.messageET).text.toString()
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND
+            intent.putExtra(Intent.EXTRA_TEXT, message)
+            intent.type = "text/plain"
+            startActivity(Intent.createChooser(intent, "Share to : "))
+        }
 
 
     }
