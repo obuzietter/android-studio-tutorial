@@ -12,11 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-        <activity
-            android:name=".SecondActivity"
-            android:theme="@style/Theme.AppCompat">
-            <!-- Other attributes for your activity -->
-        </activity>
+
 
         <activity
             android:name=".MainActivity"
@@ -28,6 +24,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/Theme.AppCompat">
+            <!-- Other attributes for your activity -->
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/Theme.AppCompat">
+            <!-- Other attributes for your activity -->
         </activity>
     </application>
 
