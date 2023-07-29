@@ -27,6 +27,7 @@ val hobby = hobbies[position]
     inner class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
 
         fun setData(hobby: Model?){
+            //problem that needs to be solved
             itemView.hobbyTV.text = hobby!!.hobby
 
         }
