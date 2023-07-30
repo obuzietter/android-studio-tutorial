@@ -28,7 +28,7 @@ val hobby = hobbies[position]
 
         fun setData(hobby: Model?){
             //problem that needs to be solved
-            itemView.hobbyTV.text = hobby!!.hobby
+
 
         }
     }
