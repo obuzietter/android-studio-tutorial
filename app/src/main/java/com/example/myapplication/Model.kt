@@ -1,6 +1,6 @@
 package com.example.myapplication
 
-data class Model(var hobby: String)
+data class Model(var hobby_title: String)
 
 object Supplier {
     val hobbies = listOf<Model>(

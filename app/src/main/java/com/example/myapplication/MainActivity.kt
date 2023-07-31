@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent, "Share to : "))
 
         }
+        findViewById<Button>(R.id.goToRV).setOnClickListener {
+            val i = Intent(this, HobbiesActivity::class.java)
+            startActivity(i)
+        }
 
 
     }

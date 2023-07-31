@@ -35,6 +35,11 @@
             android:theme="@style/Theme.AppCompat">
             <!-- Other attributes for your activity -->
         </activity>
+        <activity
+            android:name=".HobbiesActivity"
+            android:theme="@style/Theme.AppCompat">
+
+        </activity>
     </application>
 
 </manifest>
